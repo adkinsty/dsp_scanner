@@ -1,0 +1,12 @@
+#Voxels  CM x   CM y   CM z  Peak x Peak y Peak z       Overlapping Anatomical ROIs
+#------ ------ ------ ------ ------ ------ ------ --------------------------------------------
+   1351   -1.9  +79.9   +5.3  -11.0  +87.0  -17.0  B Calcarine Gyrus, R Lingual Gyrus
+    628   -6.3  +59.7  +48.7  -15.0  +77.0  +31.0  B Precuneus, R Middle Frontal Gyrus
+    578   -3.2  -16.6  +41.1   +1.0  -21.0  +27.0  B Middle Cingulate Cortex, SMA 
+    413  +34.7  +73.6  -19.8  +21.0  +89.0  -27.0  L Cerrebellum (Crus 1)
+    199   -1.3  +34.8   +4.8   +1.0  +47.0   -1.0  Cerebellar Vermis (4/5)
+    180  -40.3  +68.2  -18.1  -43.0  +71.0  -23.0  R Fusiform Gyrus
+    139  -57.6  +43.9  +26.9  -57.0  +45.0  +17.0  R Supramarginal Gyrus
+     84  -47.4  -15.8  +24.9  -45.0  -13.0  +21.0  R Inferior Frontal Gyrus
+     77  +41.5   -4.6  +30.4  +43.0   -7.0  +25.0  L Precentral Gyrus
+     64  -43.9   -5.4  +42.7  -43.0   -7.0  +35.0  R Precentral Gyrus

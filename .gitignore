@@ -1,0 +1,8 @@
+**/old/**
+
+data/raw/eye/**
+
+data/clean/all_decoding_trials.csv
+
+*.rds
+

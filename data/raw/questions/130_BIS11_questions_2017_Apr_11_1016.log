@@ -1,0 +1,637 @@
+9.0352 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0522B918>, name='window1', pos=[0, 0], screen=0, size=array([1280, 1024]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.0352 	EXP 	window1: recordFrameIntervals = False
+9.2014 	EXP 	window1: recordFrameIntervals = True
+9.3845 	EXP 	window1: recordFrameIntervals = False
+9.5218 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+9.5430 	EXP 	window1: units = 'norm'
+9.6100 	EXP 	window1: units = u'norm'
+9.6102 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=4, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['1', '2', '3', '4'], rightKeys=['right'], scale=str(...), self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=3.0, win=Window(...))
+9.6172 	EXP 	Created stimulus_to_rate = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='stimulus_to_rate', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+9.6230 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+9.6286 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+9.6513 	EXP 	rating: flipVert = False
+9.6513 	EXP 	rating: autoLog = True
+9.6513 	EXP 	text: autoDraw = True
+29.3604 	DATA 	Keypress: return
+29.3930 	EXP 	Imported BIS11_questions.xlsx as conditions, 30 conditions, 2 params
+29.3935 	EXP 	Created sequence: sequential, trialTypes=30, nReps=1, seed=None
+29.3939 	EXP 	New trial (rep=0, index=0): {u'thing': u'I plan tasks carefully.', u'reverse': 1}
+29.3996 	EXP 	RatingScale rating: reset()
+29.4073 	EXP 	window1: recordFrameIntervals = False
+29.4272 	EXP 	text: autoDraw = False
+29.4272 	EXP 	stimulus_to_rate: text = u'I plan tasks carefully.'
+29.4273 	EXP 	window1: recordFrameIntervals = False
+30.0275 	EXP 	rating: autoDraw = True
+30.0275 	EXP 	stimulus_to_rate: autoDraw = True
+33.0426 	DATA 	Mouse: Left button down, pos=(826,320)
+33.1095 	DATA 	Mouse:  Left button up, pos=(826,320)
+33.4426 	DATA 	Mouse: Left button down, pos=(751,213)
+33.5595 	DATA 	Mouse:  Left button up, pos=(751,213)
+33.7257 	DATA 	Mouse: Left button down, pos=(725,201)
+33.7278 	DATA 	RatingScale rating: (mouse response) rating=4
+33.7279 	DATA 	RatingScale rating: rating RT=3.800
+33.7279 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.116), (4, 3.8)]
+33.7608 	EXP 	rating: autoDraw = False
+33.7608 	EXP 	stimulus_to_rate: autoDraw = False
+33.7608 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+33.7926 	DATA 	Mouse:  Left button up, pos=(725,201)
+34.1754 	EXP 	text_2: autoDraw = True
+36.1420 	EXP 	New trial (rep=0, index=1): {u'thing': u'I do things without thinking.', u'reverse': 0}
+36.1475 	EXP 	RatingScale rating: reset()
+36.1547 	EXP 	window1: recordFrameIntervals = False
+36.1745 	EXP 	text_2: autoDraw = False
+36.1745 	EXP 	text_2: autoDraw = False
+36.1745 	EXP 	stimulus_to_rate: text = u'I do things without thinking.'
+36.1746 	EXP 	window1: recordFrameIntervals = False
+36.6915 	EXP 	rating: autoDraw = True
+36.6915 	EXP 	stimulus_to_rate: autoDraw = True
+38.4908 	DATA 	Mouse: Left button down, pos=(715,314)
+38.5578 	DATA 	Mouse:  Left button up, pos=(715,314)
+38.9078 	DATA 	Mouse: Left button down, pos=(681,178)
+38.9100 	DATA 	RatingScale rating: (mouse response) rating=3
+38.9101 	DATA 	RatingScale rating: rating RT=2.235
+38.9101 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.817), (3, 2.235)]
+38.9422 	EXP 	rating: autoDraw = False
+38.9422 	EXP 	stimulus_to_rate: autoDraw = False
+38.9422 	EXP 	text_2: text = 'You pressed 3 = often'
+38.9908 	DATA 	Mouse:  Left button up, pos=(681,178)
+39.3567 	EXP 	text_2: autoDraw = True
+41.3232 	EXP 	New trial (rep=0, index=2): {u'thing': u'I make-up my mind quickly.', u'reverse': 0}
+41.3288 	EXP 	RatingScale rating: reset()
+41.3402 	EXP 	window1: recordFrameIntervals = False
+41.3568 	EXP 	text_2: autoDraw = False
+41.3568 	EXP 	text_2: autoDraw = False
+41.3568 	EXP 	stimulus_to_rate: text = u'I make-up my mind quickly.'
+41.3568 	EXP 	window1: recordFrameIntervals = False
+41.8728 	EXP 	rating: autoDraw = True
+41.8728 	EXP 	stimulus_to_rate: autoDraw = True
+45.2882 	DATA 	Mouse: Left button down, pos=(538,311)
+45.3741 	DATA 	Mouse:  Left button up, pos=(538,311)
+45.8882 	DATA 	Mouse: Left button down, pos=(625,200)
+45.8904 	DATA 	RatingScale rating: (mouse response) rating=2
+45.8904 	DATA 	RatingScale rating: rating RT=4.034
+45.8904 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.433), (2, 4.034)]
+45.9224 	EXP 	rating: autoDraw = False
+45.9224 	EXP 	stimulus_to_rate: autoDraw = False
+45.9224 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+45.9711 	DATA 	Mouse:  Left button up, pos=(625,200)
+46.3379 	EXP 	text_2: autoDraw = True
+48.3045 	EXP 	New trial (rep=0, index=3): {u'thing': u'I am happy-go-lucky.', u'reverse': 0}
+48.3100 	EXP 	RatingScale rating: reset()
+48.3188 	EXP 	window1: recordFrameIntervals = False
+48.3370 	EXP 	text_2: autoDraw = False
+48.3370 	EXP 	text_2: autoDraw = False
+48.3370 	EXP 	stimulus_to_rate: text = u'I am happy-go-lucky.'
+48.3371 	EXP 	window1: recordFrameIntervals = False
+48.8531 	EXP 	rating: autoDraw = True
+48.8531 	EXP 	stimulus_to_rate: autoDraw = True
+50.2534 	DATA 	Mouse: Left button down, pos=(685,307)
+50.3703 	DATA 	Mouse:  Left button up, pos=(685,307)
+50.7864 	DATA 	Mouse: Left button down, pos=(678,201)
+50.7886 	DATA 	RatingScale rating: (mouse response) rating=3
+50.7886 	DATA 	RatingScale rating: rating RT=1.951
+50.7886 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.417), (3, 1.951)]
+50.8192 	EXP 	rating: autoDraw = False
+50.8192 	EXP 	stimulus_to_rate: autoDraw = False
+50.8192 	EXP 	text_2: text = 'You pressed 3 = often'
+50.9193 	DATA 	Mouse:  Left button up, pos=(678,201)
+51.2362 	EXP 	text_2: autoDraw = True
+53.2027 	EXP 	New trial (rep=0, index=4): {u'thing': u'I don\'t "pay attention."', u'reverse': 0}
+53.2083 	EXP 	RatingScale rating: reset()
+53.2201 	EXP 	window1: recordFrameIntervals = False
+53.2353 	EXP 	text_2: autoDraw = False
+53.2353 	EXP 	text_2: autoDraw = False
+53.2353 	EXP 	stimulus_to_rate: text = u'I don\'t "pay attention."'
+53.2353 	EXP 	window1: recordFrameIntervals = False
+53.7523 	EXP 	rating: autoDraw = True
+53.7523 	EXP 	stimulus_to_rate: autoDraw = True
+56.2516 	DATA 	Mouse: Left button down, pos=(559,316)
+56.3346 	DATA 	Mouse:  Left button up, pos=(559,316)
+58.4007 	DATA 	Mouse: Left button down, pos=(475,318)
+58.5028 	DATA 	Mouse:  Left button up, pos=(475,318)
+58.7997 	DATA 	Mouse: Left button down, pos=(566,202)
+58.8019 	DATA 	RatingScale rating: (mouse response) rating=1
+58.8019 	DATA 	RatingScale rating: rating RT=5.066
+58.8019 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.517), (1, 4.667), (1, 5.066)]
+58.8335 	EXP 	rating: autoDraw = False
+58.8335 	EXP 	stimulus_to_rate: autoDraw = False
+58.8335 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+58.9167 	DATA 	Mouse:  Left button up, pos=(566,202)
+59.2495 	EXP 	text_2: autoDraw = True
+61.2161 	EXP 	New trial (rep=0, index=5): {u'thing': u'I have "racing" thoughts.', u'reverse': 0}
+61.2217 	EXP 	RatingScale rating: reset()
+61.2307 	EXP 	window1: recordFrameIntervals = False
+61.2496 	EXP 	text_2: autoDraw = False
+61.2496 	EXP 	text_2: autoDraw = False
+61.2496 	EXP 	stimulus_to_rate: text = u'I have "racing" thoughts.'
+61.2497 	EXP 	window1: recordFrameIntervals = False
+61.7656 	EXP 	rating: autoDraw = True
+61.7656 	EXP 	stimulus_to_rate: autoDraw = True
+63.4320 	DATA 	Mouse: Left button down, pos=(561,310)
+63.5670 	DATA 	Mouse:  Left button up, pos=(562,310)
+63.9150 	DATA 	Mouse: Left button down, pos=(607,207)
+63.9172 	DATA 	RatingScale rating: (mouse response) rating=2
+63.9172 	DATA 	RatingScale rating: rating RT=2.168
+63.9172 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.684), (2, 2.168)]
+63.9484 	EXP 	rating: autoDraw = False
+63.9484 	EXP 	stimulus_to_rate: autoDraw = False
+63.9484 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+64.0649 	DATA 	Mouse:  Left button up, pos=(607,200)
+64.3648 	EXP 	text_2: autoDraw = True
+66.3313 	EXP 	New trial (rep=0, index=6): {u'thing': u'I plan trips well ahead of time.', u'reverse': 1}
+66.3369 	EXP 	RatingScale rating: reset()
+66.3443 	EXP 	window1: recordFrameIntervals = False
+66.3640 	EXP 	text_2: autoDraw = False
+66.3640 	EXP 	text_2: autoDraw = False
+66.3640 	EXP 	stimulus_to_rate: text = u'I plan trips well ahead of time.'
+66.3641 	EXP 	window1: recordFrameIntervals = False
+66.8809 	EXP 	rating: autoDraw = True
+66.8809 	EXP 	stimulus_to_rate: autoDraw = True
+70.3293 	DATA 	Mouse: Left button down, pos=(663,313)
+70.4292 	DATA 	Mouse:  Left button up, pos=(663,313)
+71.3293 	DATA 	Mouse: Left button down, pos=(586,319)
+71.4453 	DATA 	Mouse:  Left button up, pos=(586,319)
+71.7793 	DATA 	Mouse: Left button down, pos=(605,216)
+71.9123 	DATA 	Mouse:  Left button up, pos=(605,216)
+72.3453 	DATA 	Mouse: Left button down, pos=(601,197)
+72.3475 	DATA 	RatingScale rating: (mouse response) rating=2
+72.3476 	DATA 	RatingScale rating: rating RT=5.483
+72.3476 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 3.466), (2, 4.467), (2, 5.483)]
+72.3791 	EXP 	rating: autoDraw = False
+72.3791 	EXP 	stimulus_to_rate: autoDraw = False
+72.3791 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+72.4453 	DATA 	Mouse:  Left button up, pos=(601,197)
+72.7951 	EXP 	text_2: autoDraw = True
+74.7618 	EXP 	New trial (rep=0, index=7): {u'thing': u'I am self controlled.', u'reverse': 1}
+74.7674 	EXP 	RatingScale rating: reset()
+74.7734 	EXP 	window1: recordFrameIntervals = False
+74.7942 	EXP 	text_2: autoDraw = False
+74.7942 	EXP 	text_2: autoDraw = False
+74.7942 	EXP 	stimulus_to_rate: text = u'I am self controlled.'
+74.7943 	EXP 	window1: recordFrameIntervals = False
+75.3112 	EXP 	rating: autoDraw = True
+75.3112 	EXP 	stimulus_to_rate: autoDraw = True
+76.5605 	DATA 	Mouse: Left button down, pos=(840,307)
+76.6296 	DATA 	Mouse:  Left button up, pos=(840,307)
+77.0605 	DATA 	Mouse: Left button down, pos=(725,309)
+77.1265 	DATA 	Mouse:  Left button up, pos=(725,309)
+77.5606 	DATA 	Mouse: Left button down, pos=(702,200)
+77.5628 	DATA 	RatingScale rating: (mouse response) rating=3
+77.5628 	DATA 	RatingScale rating: rating RT=2.268
+77.5628 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.267), (3, 1.768), (3, 2.268)]
+77.5934 	EXP 	rating: autoDraw = False
+77.5934 	EXP 	stimulus_to_rate: autoDraw = False
+77.5934 	EXP 	text_2: text = 'You pressed 3 = often'
+77.6605 	DATA 	Mouse:  Left button up, pos=(702,200)
+78.0094 	EXP 	text_2: autoDraw = True
+79.9759 	EXP 	New trial (rep=0, index=8): {u'thing': u'I concentrate easily.', u'reverse': 1}
+79.9815 	EXP 	RatingScale rating: reset()
+79.9876 	EXP 	window1: recordFrameIntervals = False
+80.0094 	EXP 	text_2: autoDraw = False
+80.0094 	EXP 	text_2: autoDraw = False
+80.0094 	EXP 	stimulus_to_rate: text = u'I concentrate easily.'
+80.0095 	EXP 	window1: recordFrameIntervals = False
+80.5255 	EXP 	rating: autoDraw = True
+80.5255 	EXP 	stimulus_to_rate: autoDraw = True
+82.9918 	DATA 	Mouse: Left button down, pos=(727,309)
+83.0918 	DATA 	Mouse:  Left button up, pos=(727,309)
+83.4939 	DATA 	Mouse: Left button down, pos=(709,196)
+83.4940 	DATA 	RatingScale rating: (mouse response) rating=3
+83.4940 	DATA 	RatingScale rating: rating RT=2.999
+83.4941 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.497), (3, 2.999)]
+83.5246 	EXP 	rating: autoDraw = False
+83.5246 	EXP 	stimulus_to_rate: autoDraw = False
+83.5246 	EXP 	text_2: text = 'You pressed 3 = often'
+83.6578 	DATA 	Mouse:  Left button up, pos=(709,196)
+83.9407 	EXP 	text_2: autoDraw = True
+85.9072 	EXP 	New trial (rep=0, index=9): {u'thing': u'I save regularly.', u'reverse': 1}
+85.9127 	EXP 	RatingScale rating: reset()
+85.9202 	EXP 	window1: recordFrameIntervals = False
+85.9407 	EXP 	text_2: autoDraw = False
+85.9407 	EXP 	text_2: autoDraw = False
+85.9407 	EXP 	stimulus_to_rate: text = u'I save regularly.'
+85.9408 	EXP 	window1: recordFrameIntervals = False
+86.4567 	EXP 	rating: autoDraw = True
+86.4567 	EXP 	stimulus_to_rate: autoDraw = True
+88.0061 	DATA 	Mouse: Left button down, pos=(826,311)
+88.1060 	DATA 	Mouse:  Left button up, pos=(826,311)
+88.5252 	DATA 	Mouse: Left button down, pos=(703,171)
+88.5253 	DATA 	RatingScale rating: (mouse response) rating=4
+88.5253 	DATA 	RatingScale rating: rating RT=2.085
+88.5253 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.567), (4, 2.085)]
+88.5562 	EXP 	rating: autoDraw = False
+88.5562 	EXP 	stimulus_to_rate: autoDraw = False
+88.5562 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+88.6230 	DATA 	Mouse:  Left button up, pos=(703,171)
+88.9729 	EXP 	text_2: autoDraw = True
+90.9394 	EXP 	New trial (rep=0, index=10): {u'thing': u'I "squirm" at plays or lectures', u'reverse': 0}
+90.9450 	EXP 	RatingScale rating: reset()
+90.9558 	EXP 	window1: recordFrameIntervals = False
+90.9720 	EXP 	text_2: autoDraw = False
+90.9720 	EXP 	text_2: autoDraw = False
+90.9720 	EXP 	stimulus_to_rate: text = u'I "squirm" at plays or lectures'
+90.9720 	EXP 	window1: recordFrameIntervals = False
+91.4880 	EXP 	rating: autoDraw = True
+91.4880 	EXP 	stimulus_to_rate: autoDraw = True
+93.6713 	DATA 	Mouse: Left button down, pos=(802,315)
+93.7542 	DATA 	Mouse:  Left button up, pos=(802,315)
+94.1544 	DATA 	Mouse: Left button down, pos=(729,207)
+94.1567 	DATA 	RatingScale rating: (mouse response) rating=4
+94.1567 	DATA 	RatingScale rating: rating RT=2.684
+94.1567 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.2), (4, 2.684)]
+94.2541 	EXP 	rating: autoDraw = False
+94.2541 	EXP 	stimulus_to_rate: autoDraw = False
+94.2541 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+94.2543 	DATA 	Mouse:  Left button up, pos=(729,207)
+94.6041 	EXP 	text_2: autoDraw = True
+96.5706 	EXP 	New trial (rep=0, index=11): {u'thing': u'I am a careful thinker.', u'reverse': 1}
+96.5763 	EXP 	RatingScale rating: reset()
+96.5826 	EXP 	window1: recordFrameIntervals = False
+96.6032 	EXP 	text_2: autoDraw = False
+96.6032 	EXP 	text_2: autoDraw = False
+96.6032 	EXP 	stimulus_to_rate: text = u'I am a careful thinker.'
+96.6033 	EXP 	window1: recordFrameIntervals = False
+97.1192 	EXP 	rating: autoDraw = True
+97.1192 	EXP 	stimulus_to_rate: autoDraw = True
+98.2025 	DATA 	Mouse: Left button down, pos=(793,312)
+98.2695 	DATA 	Mouse:  Left button up, pos=(793,312)
+98.5695 	DATA 	Mouse: Left button down, pos=(718,202)
+98.5717 	DATA 	RatingScale rating: (mouse response) rating=4
+98.5717 	DATA 	RatingScale rating: rating RT=1.468
+98.5717 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.1), (4, 1.468)]
+98.6023 	EXP 	rating: autoDraw = False
+98.6023 	EXP 	stimulus_to_rate: autoDraw = False
+98.6023 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+98.6695 	DATA 	Mouse:  Left button up, pos=(718,202)
+99.0193 	EXP 	text_2: autoDraw = True
+100.9858 	EXP 	New trial (rep=0, index=12): {u'thing': u'I plan for job security.', u'reverse': 1}
+100.9916 	EXP 	RatingScale rating: reset()
+101.0007 	EXP 	window1: recordFrameIntervals = False
+101.0184 	EXP 	text_2: autoDraw = False
+101.0184 	EXP 	text_2: autoDraw = False
+101.0184 	EXP 	stimulus_to_rate: text = u'I plan for job security.'
+101.0185 	EXP 	window1: recordFrameIntervals = False
+101.5344 	EXP 	rating: autoDraw = True
+101.5344 	EXP 	stimulus_to_rate: autoDraw = True
+103.0507 	DATA 	Mouse: Left button down, pos=(731,316)
+103.1347 	DATA 	Mouse:  Left button up, pos=(731,316)
+103.4347 	DATA 	Mouse: Left button down, pos=(691,176)
+103.4369 	DATA 	RatingScale rating: (mouse response) rating=3
+103.4369 	DATA 	RatingScale rating: rating RT=1.918
+103.4369 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.533), (3, 1.918)]
+103.4675 	EXP 	rating: autoDraw = False
+103.4675 	EXP 	stimulus_to_rate: autoDraw = False
+103.4675 	EXP 	text_2: text = 'You pressed 3 = often'
+103.5337 	DATA 	Mouse:  Left button up, pos=(691,176)
+103.8835 	EXP 	text_2: autoDraw = True
+105.8501 	EXP 	New trial (rep=0, index=13): {u'thing': u'I say things without thinking.', u'reverse': 0}
+105.8557 	EXP 	RatingScale rating: reset()
+105.8630 	EXP 	window1: recordFrameIntervals = False
+105.8836 	EXP 	text_2: autoDraw = False
+105.8836 	EXP 	text_2: autoDraw = False
+105.8836 	EXP 	stimulus_to_rate: text = u'I say things without thinking.'
+105.8837 	EXP 	window1: recordFrameIntervals = False
+106.3996 	EXP 	rating: autoDraw = True
+106.3996 	EXP 	stimulus_to_rate: autoDraw = True
+107.8329 	DATA 	Mouse: Left button down, pos=(784,313)
+107.9329 	DATA 	Mouse:  Left button up, pos=(784,313)
+109.0820 	DATA 	Mouse: Left button down, pos=(722,314)
+109.1819 	DATA 	Mouse:  Left button up, pos=(722,314)
+110.0990 	DATA 	Mouse: Left button down, pos=(588,316)
+110.1820 	DATA 	Mouse:  Left button up, pos=(588,316)
+110.5320 	DATA 	Mouse: Left button down, pos=(635,185)
+110.5342 	DATA 	RatingScale rating: (mouse response) rating=2
+110.5342 	DATA 	RatingScale rating: rating RT=4.151
+110.5343 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.451), (3, 2.701), (2, 3.718), (2, 4.151)]
+110.5648 	EXP 	rating: autoDraw = False
+110.5648 	EXP 	stimulus_to_rate: autoDraw = False
+110.5648 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+110.6650 	DATA 	Mouse:  Left button up, pos=(635,185)
+110.9808 	EXP 	text_2: autoDraw = True
+112.9474 	EXP 	New trial (rep=0, index=14): {u'thing': u'I like to think about complex problems.', u'reverse': 1}
+112.9530 	EXP 	RatingScale rating: reset()
+112.9622 	EXP 	window1: recordFrameIntervals = False
+112.9809 	EXP 	text_2: autoDraw = False
+112.9809 	EXP 	text_2: autoDraw = False
+112.9809 	EXP 	stimulus_to_rate: text = u'I like to think about complex problems.'
+112.9810 	EXP 	window1: recordFrameIntervals = False
+113.4969 	EXP 	rating: autoDraw = True
+113.4969 	EXP 	stimulus_to_rate: autoDraw = True
+114.7484 	DATA 	Mouse: Left button down, pos=(690,308)
+114.8972 	DATA 	Mouse:  Left button up, pos=(690,308)
+115.1824 	DATA 	Mouse: Left button down, pos=(687,197)
+115.1825 	DATA 	RatingScale rating: (mouse response) rating=3
+115.1825 	DATA 	RatingScale rating: rating RT=1.702
+115.1826 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.268), (3, 1.702)]
+115.2130 	EXP 	rating: autoDraw = False
+115.2130 	EXP 	stimulus_to_rate: autoDraw = False
+115.2130 	EXP 	text_2: text = 'You pressed 3 = often'
+115.2962 	DATA 	Mouse:  Left button up, pos=(687,197)
+115.6300 	EXP 	text_2: autoDraw = True
+117.5956 	EXP 	New trial (rep=0, index=15): {u'thing': u'I change jobs.', u'reverse': 0}
+117.6012 	EXP 	RatingScale rating: reset()
+117.6070 	EXP 	window1: recordFrameIntervals = False
+117.6146 	EXP 	text_2: autoDraw = False
+117.6146 	EXP 	text_2: autoDraw = False
+117.6146 	EXP 	stimulus_to_rate: text = u'I change jobs.'
+117.6147 	EXP 	window1: recordFrameIntervals = False
+118.1292 	EXP 	rating: autoDraw = True
+118.1292 	EXP 	stimulus_to_rate: autoDraw = True
+120.6127 	DATA 	Mouse: Left button down, pos=(476,308)
+120.7114 	DATA 	Mouse:  Left button up, pos=(476,308)
+120.9775 	DATA 	Mouse: Left button down, pos=(572,202)
+120.9797 	DATA 	RatingScale rating: (mouse response) rating=1
+120.9798 	DATA 	RatingScale rating: rating RT=2.866
+120.9798 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.499), (1, 2.866)]
+121.0113 	EXP 	rating: autoDraw = False
+121.0113 	EXP 	stimulus_to_rate: autoDraw = False
+121.0113 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+121.0774 	DATA 	Mouse:  Left button up, pos=(572,202)
+121.4273 	EXP 	text_2: autoDraw = True
+123.3938 	EXP 	New trial (rep=0, index=16): {u'thing': u'I act "on impulse."', u'reverse': 0}
+123.3995 	EXP 	RatingScale rating: reset()
+123.4072 	EXP 	window1: recordFrameIntervals = False
+123.4264 	EXP 	text_2: autoDraw = False
+123.4264 	EXP 	text_2: autoDraw = False
+123.4264 	EXP 	stimulus_to_rate: text = u'I act "on impulse."'
+123.4265 	EXP 	window1: recordFrameIntervals = False
+123.9434 	EXP 	rating: autoDraw = True
+123.9434 	EXP 	stimulus_to_rate: autoDraw = True
+125.6767 	DATA 	Mouse: Left button down, pos=(696,306)
+125.7767 	DATA 	Mouse:  Left button up, pos=(696,306)
+126.4098 	DATA 	Mouse: Left button down, pos=(674,195)
+126.4120 	DATA 	RatingScale rating: (mouse response) rating=3
+126.4120 	DATA 	RatingScale rating: rating RT=2.485
+126.4121 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.751), (3, 2.485)]
+126.4425 	EXP 	rating: autoDraw = False
+126.4425 	EXP 	stimulus_to_rate: autoDraw = False
+126.4425 	EXP 	text_2: text = 'You pressed 3 = often'
+126.5927 	DATA 	Mouse:  Left button up, pos=(674,195)
+126.8586 	EXP 	text_2: autoDraw = True
+128.8251 	EXP 	New trial (rep=0, index=17): {u'thing': u'I get easily bored when solving thought problems.', u'reverse': 0}
+128.8308 	EXP 	RatingScale rating: reset()
+128.8410 	EXP 	window1: recordFrameIntervals = False
+128.8586 	EXP 	text_2: autoDraw = False
+128.8586 	EXP 	text_2: autoDraw = False
+128.8586 	EXP 	stimulus_to_rate: text = u'I get easily bored when solving thought problems.'
+128.8587 	EXP 	window1: recordFrameIntervals = False
+129.3747 	EXP 	rating: autoDraw = True
+129.3747 	EXP 	stimulus_to_rate: autoDraw = True
+132.4071 	DATA 	Mouse: Left button down, pos=(594,308)
+132.5262 	DATA 	Mouse:  Left button up, pos=(594,308)
+132.8926 	DATA 	Mouse: Left button down, pos=(635,187)
+132.9091 	DATA 	RatingScale rating: (mouse response) rating=2
+132.9091 	DATA 	RatingScale rating: rating RT=3.551
+132.9091 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.05), (2, 3.551)]
+132.9405 	EXP 	rating: autoDraw = False
+132.9405 	EXP 	stimulus_to_rate: autoDraw = False
+132.9405 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+133.0240 	DATA 	Mouse:  Left button up, pos=(635,187)
+133.3569 	EXP 	text_2: autoDraw = True
+135.3234 	EXP 	New trial (rep=0, index=18): {u'thing': u'I act on the spur of the moment.', u'reverse': 0}
+135.3292 	EXP 	RatingScale rating: reset()
+135.3366 	EXP 	window1: recordFrameIntervals = False
+135.3559 	EXP 	text_2: autoDraw = False
+135.3559 	EXP 	text_2: autoDraw = False
+135.3559 	EXP 	stimulus_to_rate: text = u'I act on the spur of the moment.'
+135.3560 	EXP 	window1: recordFrameIntervals = False
+135.8720 	EXP 	rating: autoDraw = True
+135.8720 	EXP 	stimulus_to_rate: autoDraw = True
+137.9053 	DATA 	Mouse: Left button down, pos=(746,309)
+137.9882 	DATA 	Mouse:  Left button up, pos=(746,309)
+138.3383 	DATA 	Mouse: Left button down, pos=(712,206)
+138.3405 	DATA 	RatingScale rating: (mouse response) rating=3
+138.3405 	DATA 	RatingScale rating: rating RT=2.484
+138.3405 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.05), (3, 2.484)]
+138.3711 	EXP 	rating: autoDraw = False
+138.3711 	EXP 	stimulus_to_rate: autoDraw = False
+138.3711 	EXP 	text_2: text = 'You pressed 3 = often'
+138.4552 	DATA 	Mouse:  Left button up, pos=(712,206)
+138.7881 	EXP 	text_2: autoDraw = True
+140.7546 	EXP 	New trial (rep=0, index=19): {u'thing': u'I am a steady thinker.', u'reverse': 1}
+140.7602 	EXP 	RatingScale rating: reset()
+140.7666 	EXP 	window1: recordFrameIntervals = False
+140.7872 	EXP 	text_2: autoDraw = False
+140.7872 	EXP 	text_2: autoDraw = False
+140.7872 	EXP 	stimulus_to_rate: text = u'I am a steady thinker.'
+140.7872 	EXP 	window1: recordFrameIntervals = False
+141.3042 	EXP 	rating: autoDraw = True
+141.3042 	EXP 	stimulus_to_rate: autoDraw = True
+143.5865 	DATA 	Mouse: Left button down, pos=(705,311)
+143.6865 	DATA 	Mouse:  Left button up, pos=(705,311)
+144.1026 	DATA 	Mouse: Left button down, pos=(685,209)
+144.1048 	DATA 	RatingScale rating: (mouse response) rating=3
+144.1048 	DATA 	RatingScale rating: rating RT=2.817
+144.1048 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.3), (3, 2.817)]
+144.1363 	EXP 	rating: autoDraw = False
+144.1363 	EXP 	stimulus_to_rate: autoDraw = False
+144.1363 	EXP 	text_2: text = 'You pressed 3 = often'
+144.2025 	DATA 	Mouse:  Left button up, pos=(685,209)
+144.5523 	EXP 	text_2: autoDraw = True
+146.5189 	EXP 	New trial (rep=0, index=20): {u'thing': u'I change residences.', u'reverse': 0}
+146.5245 	EXP 	RatingScale rating: reset()
+146.5304 	EXP 	window1: recordFrameIntervals = False
+146.5381 	EXP 	text_2: autoDraw = False
+146.5381 	EXP 	text_2: autoDraw = False
+146.5381 	EXP 	stimulus_to_rate: text = u'I change residences.'
+146.5381 	EXP 	window1: recordFrameIntervals = False
+147.0515 	EXP 	rating: autoDraw = True
+147.0515 	EXP 	stimulus_to_rate: autoDraw = True
+149.3848 	DATA 	Mouse: Left button down, pos=(504,312)
+149.4698 	DATA 	Mouse:  Left button up, pos=(504,312)
+150.1838 	DATA 	Mouse: Left button down, pos=(584,191)
+150.1860 	DATA 	RatingScale rating: (mouse response) rating=1
+150.1861 	DATA 	RatingScale rating: rating RT=3.149
+150.1861 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.349), (1, 3.149)]
+150.2176 	EXP 	rating: autoDraw = False
+150.2176 	EXP 	stimulus_to_rate: autoDraw = False
+150.2176 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+150.3338 	DATA 	Mouse:  Left button up, pos=(584,191)
+150.6336 	EXP 	text_2: autoDraw = True
+152.6002 	EXP 	New trial (rep=0, index=21): {u'thing': u'I buy things on impulse.', u'reverse': 0}
+152.6058 	EXP 	RatingScale rating: reset()
+152.6122 	EXP 	window1: recordFrameIntervals = False
+152.6327 	EXP 	text_2: autoDraw = False
+152.6327 	EXP 	text_2: autoDraw = False
+152.6327 	EXP 	stimulus_to_rate: text = u'I buy things on impulse.'
+152.6328 	EXP 	window1: recordFrameIntervals = False
+153.1497 	EXP 	rating: autoDraw = True
+153.1497 	EXP 	stimulus_to_rate: autoDraw = True
+154.7990 	DATA 	Mouse: Left button down, pos=(612,315)
+154.8682 	DATA 	Mouse:  Left button up, pos=(612,315)
+155.2160 	DATA 	Mouse: Left button down, pos=(623,208)
+155.2183 	DATA 	RatingScale rating: (mouse response) rating=2
+155.2183 	DATA 	RatingScale rating: rating RT=2.099
+155.2183 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.681), (2, 2.099)]
+155.2488 	EXP 	rating: autoDraw = False
+155.2488 	EXP 	stimulus_to_rate: autoDraw = False
+155.2488 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+155.3160 	DATA 	Mouse:  Left button up, pos=(623,208)
+155.6648 	EXP 	text_2: autoDraw = True
+157.6314 	EXP 	New trial (rep=0, index=22): {u'thing': u'I can only think about one thing at a time.', u'reverse': 0}
+157.6372 	EXP 	RatingScale rating: reset()
+157.6467 	EXP 	window1: recordFrameIntervals = False
+157.6649 	EXP 	text_2: autoDraw = False
+157.6649 	EXP 	text_2: autoDraw = False
+157.6649 	EXP 	stimulus_to_rate: text = u'I can only think about one thing at a time.'
+157.6650 	EXP 	window1: recordFrameIntervals = False
+158.1809 	EXP 	rating: autoDraw = True
+158.1809 	EXP 	stimulus_to_rate: autoDraw = True
+161.2633 	DATA 	Mouse: Left button down, pos=(488,308)
+161.3973 	DATA 	Mouse:  Left button up, pos=(488,308)
+161.6633 	DATA 	Mouse: Left button down, pos=(584,193)
+161.6655 	DATA 	RatingScale rating: (mouse response) rating=1
+161.6655 	DATA 	RatingScale rating: rating RT=3.501
+161.6655 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.1), (1, 3.501)]
+161.6961 	EXP 	rating: autoDraw = False
+161.6961 	EXP 	stimulus_to_rate: autoDraw = False
+161.6961 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+161.7963 	DATA 	Mouse:  Left button up, pos=(584,193)
+162.1131 	EXP 	text_2: autoDraw = True
+164.0797 	EXP 	New trial (rep=0, index=23): {u'thing': u'I change hobbies.', u'reverse': 0}
+164.0853 	EXP 	RatingScale rating: reset()
+164.0910 	EXP 	window1: recordFrameIntervals = False
+164.1122 	EXP 	text_2: autoDraw = False
+164.1122 	EXP 	text_2: autoDraw = False
+164.1122 	EXP 	stimulus_to_rate: text = u'I change hobbies.'
+164.1123 	EXP 	window1: recordFrameIntervals = False
+164.6292 	EXP 	rating: autoDraw = True
+164.6292 	EXP 	stimulus_to_rate: autoDraw = True
+166.1616 	DATA 	Mouse: Left button down, pos=(484,309)
+166.2455 	DATA 	Mouse:  Left button up, pos=(484,309)
+166.5115 	DATA 	Mouse: Left button down, pos=(579,205)
+166.5138 	DATA 	RatingScale rating: (mouse response) rating=1
+166.5138 	DATA 	RatingScale rating: rating RT=1.916
+166.5138 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.565), (1, 1.915)]
+166.5443 	EXP 	rating: autoDraw = False
+166.5443 	EXP 	stimulus_to_rate: autoDraw = False
+166.5443 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+166.6445 	DATA 	Mouse:  Left button up, pos=(579,205)
+166.9613 	EXP 	text_2: autoDraw = True
+168.9279 	EXP 	New trial (rep=0, index=24): {u'thing': u'I spend or charge more than I earn.', u'reverse': 0}
+168.9335 	EXP 	RatingScale rating: reset()
+168.9420 	EXP 	window1: recordFrameIntervals = False
+168.9604 	EXP 	text_2: autoDraw = False
+168.9604 	EXP 	text_2: autoDraw = False
+168.9604 	EXP 	stimulus_to_rate: text = u'I spend or charge more than I earn.'
+168.9605 	EXP 	window1: recordFrameIntervals = False
+169.4775 	EXP 	rating: autoDraw = True
+169.4775 	EXP 	stimulus_to_rate: autoDraw = True
+171.7428 	DATA 	Mouse: Left button down, pos=(473,313)
+171.8118 	DATA 	Mouse:  Left button up, pos=(473,313)
+172.2928 	DATA 	Mouse: Left button down, pos=(589,216)
+172.4098 	DATA 	Mouse:  Left button up, pos=(589,216)
+173.5089 	DATA 	Mouse: Left button down, pos=(616,186)
+173.5111 	DATA 	RatingScale rating: (mouse response) rating=1
+173.5111 	DATA 	RatingScale rating: rating RT=4.050
+173.5111 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.283), (1, 4.05)]
+173.5426 	EXP 	rating: autoDraw = False
+173.5426 	EXP 	stimulus_to_rate: autoDraw = False
+173.5426 	EXP 	text_2: text = 'You pressed 1 = never/rarely'
+173.6588 	DATA 	Mouse:  Left button up, pos=(616,186)
+173.9587 	EXP 	text_2: autoDraw = True
+175.9252 	EXP 	New trial (rep=0, index=25): {u'thing': u'I often have extraneous thoughts when thinking.', u'reverse': 0}
+175.9309 	EXP 	RatingScale rating: reset()
+175.9408 	EXP 	window1: recordFrameIntervals = False
+175.9577 	EXP 	text_2: autoDraw = False
+175.9577 	EXP 	text_2: autoDraw = False
+175.9577 	EXP 	stimulus_to_rate: text = u'I often have extraneous thoughts when thinking.'
+175.9578 	EXP 	window1: recordFrameIntervals = False
+176.4748 	EXP 	rating: autoDraw = True
+176.4748 	EXP 	stimulus_to_rate: autoDraw = True
+178.8244 	DATA 	Mouse: Left button down, pos=(580,314)
+178.9900 	DATA 	Mouse:  Left button up, pos=(580,314)
+179.2922 	DATA 	Mouse: Left button down, pos=(612,213)
+179.2924 	DATA 	RatingScale rating: (mouse response) rating=2
+179.2924 	DATA 	RatingScale rating: rating RT=2.834
+179.2924 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.368), (2, 2.834)]
+179.3239 	EXP 	rating: autoDraw = False
+179.3239 	EXP 	stimulus_to_rate: autoDraw = False
+179.3239 	EXP 	text_2: text = 'You pressed 2 = occasionally'
+179.4571 	DATA 	Mouse:  Left button up, pos=(612,213)
+179.7399 	EXP 	text_2: autoDraw = True
+181.7064 	EXP 	New trial (rep=0, index=26): {u'thing': u'I am more interested in the present than the future.', u'reverse': 0}
+181.7142 	EXP 	RatingScale rating: reset()
+181.7249 	EXP 	window1: recordFrameIntervals = False
+181.7390 	EXP 	text_2: autoDraw = False
+181.7390 	EXP 	text_2: autoDraw = False
+181.7390 	EXP 	stimulus_to_rate: text = u'I am more interested in the present than the future.'
+181.7391 	EXP 	window1: recordFrameIntervals = False
+182.2560 	EXP 	rating: autoDraw = True
+182.2560 	EXP 	stimulus_to_rate: autoDraw = True
+184.3883 	DATA 	Mouse: Left button down, pos=(677,310)
+184.5053 	DATA 	Mouse:  Left button up, pos=(677,310)
+185.3405 	DATA 	Mouse: Left button down, pos=(655,198)
+185.3406 	DATA 	RatingScale rating: (mouse response) rating=3
+185.3406 	DATA 	RatingScale rating: rating RT=3.101
+185.3406 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.15), (3, 3.101)]
+185.3712 	EXP 	rating: autoDraw = False
+185.3712 	EXP 	stimulus_to_rate: autoDraw = False
+185.3712 	EXP 	text_2: text = 'You pressed 3 = often'
+185.4713 	DATA 	Mouse:  Left button up, pos=(655,198)
+185.7882 	EXP 	text_2: autoDraw = True
+187.7547 	EXP 	New trial (rep=0, index=27): {u'thing': u'I am restless at the theater or lectures.', u'reverse': 0}
+187.7604 	EXP 	RatingScale rating: reset()
+187.7698 	EXP 	window1: recordFrameIntervals = False
+187.7873 	EXP 	text_2: autoDraw = False
+187.7873 	EXP 	text_2: autoDraw = False
+187.7873 	EXP 	stimulus_to_rate: text = u'I am restless at the theater or lectures.'
+187.7873 	EXP 	window1: recordFrameIntervals = False
+188.3033 	EXP 	rating: autoDraw = True
+188.3033 	EXP 	stimulus_to_rate: autoDraw = True
+190.1036 	DATA 	Mouse: Left button down, pos=(806,320)
+190.2036 	DATA 	Mouse:  Left button up, pos=(806,320)
+190.5366 	DATA 	Mouse: Left button down, pos=(701,184)
+190.5388 	DATA 	RatingScale rating: (mouse response) rating=4
+190.5388 	DATA 	RatingScale rating: rating RT=2.251
+190.5388 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.817), (4, 2.251)]
+190.5694 	EXP 	rating: autoDraw = False
+190.5694 	EXP 	stimulus_to_rate: autoDraw = False
+190.5694 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+190.6365 	DATA 	Mouse:  Left button up, pos=(701,184)
+190.9864 	EXP 	text_2: autoDraw = True
+192.9519 	EXP 	New trial (rep=0, index=28): {u'thing': u'I like puzzles.', u'reverse': 1}
+192.9576 	EXP 	RatingScale rating: reset()
+192.9656 	EXP 	window1: recordFrameIntervals = False
+192.9855 	EXP 	text_2: autoDraw = False
+192.9855 	EXP 	text_2: autoDraw = False
+192.9855 	EXP 	stimulus_to_rate: text = u'I like puzzles.'
+192.9856 	EXP 	window1: recordFrameIntervals = False
+193.5015 	EXP 	rating: autoDraw = True
+193.5015 	EXP 	stimulus_to_rate: autoDraw = True
+194.7348 	DATA 	Mouse: Left button down, pos=(673,308)
+194.8347 	DATA 	Mouse:  Left button up, pos=(673,308)
+195.3348 	DATA 	Mouse: Left button down, pos=(680,211)
+195.3370 	DATA 	RatingScale rating: (mouse response) rating=3
+195.3371 	DATA 	RatingScale rating: rating RT=1.851
+195.3371 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.25), (3, 1.851)]
+195.3676 	EXP 	rating: autoDraw = False
+195.3676 	EXP 	stimulus_to_rate: autoDraw = False
+195.3676 	EXP 	text_2: text = 'You pressed 3 = often'
+195.5348 	DATA 	Mouse:  Left button up, pos=(680,211)
+195.7846 	EXP 	text_2: autoDraw = True
+197.7512 	EXP 	New trial (rep=0, index=29): {u'thing': u'I am future oriented. ', u'reverse': 1}
+197.7571 	EXP 	RatingScale rating: reset()
+197.7625 	EXP 	window1: recordFrameIntervals = False
+197.7837 	EXP 	text_2: autoDraw = False
+197.7837 	EXP 	text_2: autoDraw = False
+197.7837 	EXP 	stimulus_to_rate: text = u'I am future oriented. '
+197.7838 	EXP 	window1: recordFrameIntervals = False
+198.2997 	EXP 	rating: autoDraw = True
+198.2997 	EXP 	stimulus_to_rate: autoDraw = True
+200.1830 	DATA 	Mouse: Left button down, pos=(794,308)
+200.2680 	DATA 	Mouse:  Left button up, pos=(794,308)
+200.6356 	DATA 	Mouse: Left button down, pos=(714,198)
+200.6511 	DATA 	RatingScale rating: (mouse response) rating=4
+200.6512 	DATA 	RatingScale rating: rating RT=2.382
+200.6512 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.915), (4, 2.382)]
+200.6828 	EXP 	rating: autoDraw = False
+200.6828 	EXP 	stimulus_to_rate: autoDraw = False
+200.6828 	EXP 	text_2: text = 'You pressed 4 = almost always/always'
+200.7330 	DATA 	Mouse:  Left button up, pos=(714,198)
+201.0989 	EXP 	text_2: autoDraw = True
+203.0819 	EXP 	text_2: autoDraw = False
+203.0819 	EXP 	text_2: autoDraw = False
+203.0819 	EXP 	text_3: text = 49
+203.0819 	EXP 	text_3: autoDraw = True
+206.1147 	EXP 	window1: mouseVisible = True
